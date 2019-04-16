@@ -33,7 +33,7 @@ public:
 //...................................................................
 //just showing the list is empty or not
     bool isEmpty(){
-        if(front== NULL) return true;
+        if(end== NULL) return true;
         return false;
     }
 //......................................................
